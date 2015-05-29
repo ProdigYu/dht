@@ -1,0 +1,202 @@
+.menu {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  border-bottom: 1px solid #c3c3c3;
+}
+.menu .menu-content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  background-color: #fff;
+}
+.menu .menu-content a {
+  height: 50px;
+  line-height: 50px;
+  color: #66757f;
+}
+.menu .menu-content a:hover {
+  text-decoration: none;
+  color: #9ca7af;
+}
+.menu .menu-content .left {
+  float: left;
+  margin-left: 100px;
+}
+.menu .menu-content .right {
+  float: right;
+  margin-right: 100px;
+}
+.index-bg {
+  z-index: -999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.clear {
+  clear: both;
+}
+#main {
+  max-width: 1000px;
+}
+#main #index-search {
+  margin: 200px auto;
+  width: 600px;
+}
+#main #index-search form {
+  display: block;
+  height: 48px;
+}
+#main #index-search form input[name="q"] {
+  width: 480px;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  border: none;
+}
+#main #index-search form input[type="submit"] {
+  width: 100px;
+  height: 100%;
+  float: left;
+  border: none;
+  text-align: center;
+}
+#search-body {
+  background-color: #36465d;
+  padding: 20px 0;
+}
+#search-body .search-main {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+#search-body .search-main #search-result {
+  background-color: #fff;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#search-body .search-main #search-result form {
+  display: block;
+  height: 48px;
+}
+#search-body .search-main #search-result form input[name="q"] {
+  width: 480px;
+  height: 100%;
+  padding: 10px;
+  float: left;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+#search-body .search-main #search-result form input[type="submit"] {
+  width: 100px;
+  height: 100%;
+  float: left;
+  border: none;
+  text-align: center;
+}
+#search-body .search-main #search-result .search-count {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+#search-body .search-main #search-result .search-result {
+  margin-top: 10px;
+}
+#search-body .search-main #search-result .search-result .search-row {
+  margin-top: 10px;
+  border-bottom: 1px solid #e1e8ed;
+  width: 80%;
+}
+#search-body .search-main #search-result .search-result .search-row:last-child {
+  border-bottom: none;
+}
+#search-body .search-main #search-result .search-result .search-row .name-line .keyword {
+  color: green;
+  font-weight: bold;
+}
+#search-body .search-main #search-result .search-result .search-row .intro {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #8899a6;
+}
+#search-body .search-main #search-result .search-result .search-row .intro span {
+  margin-right: 20px;
+}
+#search-body .search-main #search-result .loading {
+  text-align: center;
+}
+#search-body .search-detail {
+  position: fixed;
+  top: 60px;
+  left: 30%;
+  width: 600px;
+  background: #fff;
+  border: 2px solid #8899a6;
+  padding: 20px;
+  max-height: 500px;
+  overflow: auto;
+}
+#search-body .search-detail .name {
+  font-size: 1.1em;
+}
+#search-body .search-detail .filelist p {
+  margin-top: 10px;
+}
+#search-body .search-detail .filelist .filelist-row {
+  margin: 10px 0px;
+  border-bottom: 1px solid #c2cbd1;
+}
+#search-body .search-detail .filelist .filelist-row:last-child {
+  border-bottom: none;
+}
+#search-body .search-detail .filelist .filelist-row .filename {
+  float: left;
+  width: 80%;
+}
+#search-body .search-detail .filelist .filelist-row .size {
+  float: right;
+}
+.pjax-search-detail {
+  padding: 10px;
+}
+.pjax-search-detail .name {
+  font-size: 1.1em;
+}
+.pjax-search-detail .intro {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #8899a6;
+}
+.pjax-search-detail .intro span {
+  margin-right: 20px;
+}
+.pjax-search-detail .filelist p {
+  margin-top: 10px;
+}
+.pjax-search-detail .filelist .filelist-row {
+  margin: 10px 0px;
+  border-bottom: 1px solid #c2cbd1;
+}
+.pjax-search-detail .filelist .filelist-row:last-child {
+  border-bottom: none;
+}
+.pjax-search-detail .filelist .filelist-row .filename {
+  float: left;
+  width: 80%;
+}
+.pjax-search-detail .filelist .filelist-row .size {
+  float: right;
+}
+#about-page .about-main {
+  background-color: #fff;
+  margin-top: 20px;
+  min-height: 100px;
+  opacity: 0.8;
+}
+#about-page .about-main p {
+  margin-top: 20px;
+}
+#about-page .about-main iframe {
+  opacity: 1;
+}

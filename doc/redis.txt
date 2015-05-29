@@ -1,0 +1,10 @@
+
+port:
+	default: 6379
+
+key:
+	name:
+		set: infohash
+	introduction:
+		set(集合)类型; 存储 infohash;
+
